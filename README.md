@@ -22,6 +22,7 @@ An example PowerShell script to block IP addresses by geolocation using Windows 
 Консоль должна отображать кириллицу корректно (например, "Успешно загружено 123 CIDR-блоков").
 Лог-файл C:\Logs\GeoFirewall.log должен содержать читаемый текст.
 Правила в Windows Firewall (wf.msc) должны быть созданы с префиксом GeoBlock.
+Для корректной работы скрипта требуется PowerShell 5.1 или выше.
 ---
 
 **Особенности и замечания:**
