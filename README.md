@@ -6,8 +6,14 @@ An example PowerShell script to block IP addresses by geolocation using Windows 
 
 - Запустите PowerShell от имени администратора
 - Выполните команду: Set-ExecutionPolicy RemoteSigned -Force
-- Перейдите в папку где у вас размещен скрипт, например это: cd D:\Apps
-- Запустите скрипт: .\GeoFirewall.ps1
+- Перейдите в папку где у вас размещен скрипт, например это:
+```powershell
+  cd D:\Apps
+```
+- Запустите скрипт:
+```powershell
+  .\GeoFirewall.ps1
+```
 - Дождитесь создания и установки правил
 
   ---
