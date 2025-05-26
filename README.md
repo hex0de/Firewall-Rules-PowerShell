@@ -32,7 +32,7 @@ An example PowerShell script to block IP addresses by geolocation using Windows 
 
 - Действие: Запуск программы powershell.exe
 
-- Аргументы: -ExecutionPolicy Bypass -File "полный_путь_к_скрипту.ps1"
+- Аргументы: -ExecutionPolicy Bypass -File "полный_путь_к_скрипту\geo-firewall.ps1"
 
 - Включить параметр "Запуск с наивысшими правами"
 
